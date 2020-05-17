@@ -41,12 +41,23 @@ const Main: FC<MainPropsType> = props => {
         </span>
         <p>
           Hi, I'm Gabe, a software engineer living in the bay area since 2015.
-          Currently working at Tempo Automation, a San Francisco based
-          automation company focusing on printed circuit board assembly. I
-          mostly write Python and Typescript software these days.
+          Currently working at{' '}
+          <a href="https://www.tempoautomation.com/">Tempo Automation</a>, a San
+          Francisco based automation company focusing on printed circuit board
+          assembly. I mostly write Python and Typescript these days and dabble
+          in cloud and serverless technologies.
         </p>
         <p>
-          Checkout out my <a href="https://github.com/Buuntu">Github</a>
+          I am also interested in bioinformatics and biology. I have a degree in
+          molecular biology and have worked in many labs across the country.
+          Most recently I worked at an agricultural biotech company in Berkeley,
+          California called <a href="">Pivot Bio</a>.
+        </p>
+        <p>
+          Checkout out my <a href="https://github.com/Buuntu">Github</a> to see
+          some of my projects (
+          <a href="https://github.com/Buuntu/portfolio">including this site</a>)
+          , or my Contact page to get ahold of me for any freelance work.
         </p>
         {close}
       </article>
@@ -62,15 +73,32 @@ const Main: FC<MainPropsType> = props => {
         <span className="image main">
           <img src={pic02} alt="" />
         </span>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <ul>
+          <li>
+            Software Engineer @{' '}
+            <a href="https://www.tempoautomation.com/">Tempo Automation</a>.{' '}
+            <i>2019 - Present</i>
+          </li>
+          <li>
+            Software/Data Engineer @{' '}
+            <a href="https://www.pivotbio.com/">Pivot Bio</a>.{' '}
+            <i>2018 - 2019</i>
+          </li>
+          <li>
+            Math/Science Teacher @{' '}
+            <a href="https://www.oaklandinternational.org/">
+              Oakland International High School
+            </a>
+            . <i>2016-2018</i>
+          </li>
+          <li>
+            Software Engineer @{' '}
+            <a href="https://www.marrick.com/">Marrick Medical</a>. <i>2015</i>
+          </li>
+          <li>
+            Freelance Software Engineer. <i>2014-2015</i>
+          </li>
+        </ul>
         {close}
       </article>
 
@@ -86,13 +114,15 @@ const Main: FC<MainPropsType> = props => {
           <img src={pic03} alt="" />
         </span>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Originally from Mexico, I moved to the states (southeast Idaho) when I
+          was young and have now lived in 5 different states. I went to a small
+          liberal arts college in the midwest where I ran track and cross
+          country at the Division 3 level, and graduated with a degree in
+          molecular biology.
+        </p>
+        <p>
+          Currently living in Oakland, CA. I spend my free time travelling,
+          trying out new restaurants, and biking in the East Bay.
         </p>
         {close}
       </article>
