@@ -1,14 +1,30 @@
-# Gabriel Abud's Portfolio Site
+# My Portfolio Site · [![license](https://img.shields.io/github/license/peaceiris/actions-gh-pages.svg)](LICENSE) [![Dependabot Status](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com)
 
-## Tools
+My overengineered portfolio site built using [Gatsby](https://www.gatsbyjs.org/)
 
-- Gatbsy
-- Dimension Starter
+## Technologies Used
+
+- GatbsyJS
+- React
 - Typescript
 - Functional Components
 
-## Installation
+## Development
 
-Install the Gatsby CLI first.
+Install the Gatsby CLI first. With npm:
 
-Run `gatsby develop` in the terminal to start the dev site.
+```
+npm install -g gatsby-cli
+```
+
+Then navigate to this project directory and run:
+
+```
+gatsby develop
+```
+
+and navigate to http://localhost:8000
+
+## Deployment
+
+Using [Netlify](https://www.netlify.com/) for continuous deployment and free hosting.
