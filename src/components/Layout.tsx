@@ -33,7 +33,7 @@ const Layout: FC<LayoutPropsType> = ({ children, location }) => {
           }
         }
       `}
-      render={data => (
+      render={(data) => (
         <>
           <Helmet>
             <meta charSet="utf-8" />
