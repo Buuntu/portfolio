@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gabriel Abud's Personal Website",
+    title: 'Gabriel Abud',
     author: 'Gabriel Abud',
-    description: 'My personal portfolio site',
+    description: "Gabriel Abud's personal website",
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -20,4 +20,4 @@ module.exports = {
     },
     'gatsby-plugin-sass',
   ],
-}
+};

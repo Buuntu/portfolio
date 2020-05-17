@@ -1,7 +1,11 @@
-import PropTypes from 'prop-types'
-import React from 'react'
+import React, { FC } from 'react';
 
-const Header = props => (
+type HeaderPropsType = {
+  onOpenArticle: (article: string) => void;
+  timeout: boolean;
+};
+
+const Header: FC<HeaderPropsType> = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
       <span className="icon fa-code"></span>
@@ -9,9 +13,7 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Gabriel Abud</h1>
-        <p>
-          Full stack software engineer based in the San Francisco Bay Area{' '}
-        </p>
+        <p>Full stack software engineer based in the San Francisco Bay Area </p>
       </div>
     </div>
     <nav>
@@ -19,7 +21,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('intro');
             }}
           >
             Intro
@@ -28,7 +30,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('work');
             }}
           >
             Work
@@ -37,7 +39,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('about');
             }}
           >
             About
@@ -46,7 +48,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('contact')
+              props.onOpenArticle('contact');
             }}
           >
             Contact
@@ -55,11 +57,6 @@ const Header = props => (
       </ul>
     </nav>
   </header>
-)
+);
 
-Header.propTypes = {
-  onOpenArticle: PropTypes.func,
-  timeout: PropTypes.bool,
-}
-
-export default Header
+export default Header;
