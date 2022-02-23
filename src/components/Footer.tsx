@@ -6,7 +6,7 @@ type FooterPropsType = {
 
 const Footer: FC<FooterPropsType> = (props) => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
-    <p className="copyright">&copy; 2020, Gabriel Abud</p>
+    <p className="copyright">&copy; 2022, Gabriel Abud</p>
   </footer>
 );
 
