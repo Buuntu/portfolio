@@ -8,7 +8,7 @@
     "gatsby-plugin-manifest": "^2.4.3",
     "gatsby-plugin-react-helmet": "^3.3.1",
     "gatsby-plugin-sass": "^2.3.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "npm:sass@^1.49.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0"
@@ -27,7 +27,7 @@
     "eslint": "^7.0.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "prettier": "^2.0.5"
+    "prettier": "2.5.1"
   },
   "repository": {
     "type": "git",

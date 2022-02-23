@@ -40,8 +40,9 @@ const Main: FC<MainPropsType> = (props) => {
           <img src={pic01} alt="" />
         </span>
         <p>
-          Hi, I'm Gabe, a software engineer living in the bay area since 2015.
-          Currently working at{' '}
+          Hi, I'm Gabe, a software engineer at{' '}
+          <a href="https://about.facebook.com/meta/">Facebook</a> living in the
+          bay area. Previously, I worked at{' '}
           <a href="https://www.tempoautomation.com/">Tempo Automation</a>, a San
           Francisco based automation company focusing on printed circuit board
           assembly. I mostly write Python and Typescript these days and dabble
@@ -49,9 +50,10 @@ const Main: FC<MainPropsType> = (props) => {
         </p>
         <p>
           I am also interested in bioinformatics and biology. I have a degree in
-          molecular biology and have worked in many labs across the country.
-          Most recently I worked at an agricultural biotech company in Berkeley,
-          California called <a href="">Pivot Bio</a>.
+          molecular biology and have worked in many labs across the country. I
+          got the chance to work as a software engineer at an agricultural
+          biotech company in Berkeley, California called{' '}
+          <a href="">Pivot Bio</a>.
         </p>
         <p>
           Checkout out my <a href="https://github.com/Buuntu">Github</a> to see
@@ -76,8 +78,13 @@ const Main: FC<MainPropsType> = (props) => {
         <ul>
           <li>
             Software Engineer @{' '}
+            <a href="https://about.facebook.com/meta/">Facebook</a>.{' '}
+            <i>2021 - Present</i>
+          </li>
+          <li>
+            Senior Software Engineer @{' '}
             <a href="https://www.tempoautomation.com/">Tempo Automation</a>.{' '}
-            <i>2019 - Present</i>
+            <i>2019 - 2021</i>
           </li>
           <li>
             Software/Data Engineer @{' '}

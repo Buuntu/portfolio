@@ -5,7 +5,7 @@ type HeaderPropsType = {
   timeout: boolean;
 };
 
-const Header: FC<HeaderPropsType> = props => (
+const Header: FC<HeaderPropsType> = (props) => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
       <span className="icon fa-code"></span>
